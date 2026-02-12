@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2020" /* Versi JS hasil compile */,
+    "module": "commonjs" /* Standar modul Node.js */,
+    "rootDir": "./src" /* Lokasi kode sumber TS */,
+    "outDir": "./dist" /* Lokasi hasil compile JS */,
+    "strict": true /* Mengaktifkan mode ketat (wajib untuk TS) */,
+    "esModuleInterop": true /* Memudahkan import module CommonJS */,
+    "skipLibCheck": true /* Mempercepat proses compile */
+  },
+  "include": ["src/**/*"]
+}

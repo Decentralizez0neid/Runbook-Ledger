@@ -1,0 +1,30 @@
+# Node
+node_modules
+.next
+dist
+turbo
+
+# Rust
+target
+
+# Flutter/Dart
+.dart_tool
+build
+ios/Pods
+android/.gradle
+
+# Python
+.venv
+__pycache__
+.ipynb_checkpoints
+
+# Supabase
+.supabase
+
+# Foundry
+out
+cache
+
+# Env
+.env
+.env.*
