@@ -2,7 +2,9 @@
 node_modules
 .next
 dist
-turbo
+
+# Turbo
+.turbo
 
 # Rust
 target
@@ -12,11 +14,6 @@ target
 build
 ios/Pods
 android/.gradle
-
-# Python
-.venv
-__pycache__
-.ipynb_checkpoints
 
 # Supabase
 .supabase
@@ -28,3 +25,14 @@ cache
 # Env
 .env
 .env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

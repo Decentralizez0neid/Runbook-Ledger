@@ -1,6 +1,7 @@
 {
     "name": "runbook-ledger",
     "private": true,
+    "packageManager": "npm@11.6.2",
     "scripts": {
         "build": "turbo run build",
         "dev": "turbo run dev",

@@ -1,0 +1,40 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg
+*.egg-info/
+.ipynb_checkpoints/
+
+# Build / Distribution
+dist/
+build/
+
+# Testing / Linting
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+coverage.xml
+
+# Environment variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model artifacts (optional)
+*.pkl
+*.h5
+*.pt
+*.onnx
